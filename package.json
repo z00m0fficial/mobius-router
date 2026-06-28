@@ -1,0 +1,25 @@
+{
+  "name": "@mobius/router",
+  "version": "1.0.0",
+  "description": "AI orchestration and specialist routing layer for the Mobius Organizational Intelligence Platform.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "validate": "npm run build && npm run test"
+  },
+  "keywords": [
+    "mobius",
+    "atlas",
+    "router",
+    "ai-orchestration",
+    "organizational-intelligence"
+  ],
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  }
+}
