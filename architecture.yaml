@@ -1,10 +1,12 @@
 repository: mobius-router
-version: 1.0.0
+version: 1.1.0
 status: active
 classification: internal-platform
 primary_layer: ai-orchestration
 mission: Build organizations that learn faster than they forget.
 motto: One Organization. Infinite Intelligence. Limitless Impact.
+performance_principle: Eliminate unnecessary thinking.
+optimization_target: Maximize verified work completed per second of organizational effort.
 responsibilities:
   - classify-intent
   - select-provider
@@ -12,6 +14,20 @@ responsibilities:
   - create-task-envelope
   - record-decision-log
   - emit-memory-ready-output
+  - select-thinking-mode
+  - reuse-verified-patterns
+  - optimize-decision-latency
+  - calculate-oies
+thinking_modes:
+  instant:
+    target_latency_ms: 50
+    description: Verified pattern or cached decision, no specialist reasoning required.
+  assisted:
+    target_latency_ms: 500
+    description: Familiar request with one specialist or lightweight reasoning.
+  strategic:
+    target_latency_ms: 10000
+    description: New, ambiguous, high-risk, or multi-specialist request.
 providers:
   - atlas
   - chatgpt
@@ -27,3 +43,4 @@ quality_gates:
   routing_policy_required: true
   human_approval_required: true
   repository_context_required_for_engineering: true
+  verification_required_before_memory_reuse: true
