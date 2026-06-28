@@ -1,0 +1,29 @@
+repository: mobius-router
+version: 1.0.0
+status: active
+classification: internal-platform
+primary_layer: ai-orchestration
+mission: Build organizations that learn faster than they forget.
+motto: One Organization. Infinite Intelligence. Limitless Impact.
+responsibilities:
+  - classify-intent
+  - select-provider
+  - enforce-routing-policy
+  - create-task-envelope
+  - record-decision-log
+  - emit-memory-ready-output
+providers:
+  - atlas
+  - chatgpt
+  - codex
+  - claude
+  - gemini
+  - grok
+  - mistral
+  - local-model
+quality_gates:
+  tests_required: true
+  documentation_required: true
+  routing_policy_required: true
+  human_approval_required: true
+  repository_context_required_for_engineering: true
