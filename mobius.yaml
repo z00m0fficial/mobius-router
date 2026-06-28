@@ -1,0 +1,23 @@
+mobius:
+  repository: mobius-router
+  department: Router
+  domain: Engineering
+  service: AI Orchestration
+  canon_version: pending-mobius-canon
+  architecture_version: 1.1.0
+  sync_status: synchronized
+  consumes:
+    - structured-requests
+    - voice-intelligence-payloads
+    - atlas-policy-context
+  produces:
+    - routing-decisions
+    - task-envelopes
+    - provider-selection-records
+  depends_on:
+    - atlas-core
+    - mobius-docs
+  governance:
+    approval_workflow: true
+    pcp_required_for_architecture_changes: true
+    human_approval_required_for_execution: true
