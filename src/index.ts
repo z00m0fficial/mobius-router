@@ -10,6 +10,7 @@ export type { RouteRequest, RouteDecision } from "./models/route.js";
 export type { RouteResult } from "./models/route-result.js";
 export type { ProviderName, Capability, ProviderProfile } from "./models/provider.js";
 export type { TaskEnvelope } from "./models/task-envelope.js";
+export type { SonicVoiceIntelligencePayload, SonicSpeakerMapEntry } from "./models/sonic-payload.js";
 export type { ThinkingMode, ThinkingModeDecision } from "./router/thinking-mode.js";
 export type { CacheEntry } from "./router/cache.js";
 export type { VerifiedPattern } from "./router/verified-patterns.js";
